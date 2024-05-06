@@ -11,3 +11,7 @@ function register() {
   function irParaLogin() {
     window.location.href = 'login.html';
   }
+
+  function irParaCadastro() {
+    window.location.href = 'cadastro.html';
+  }
