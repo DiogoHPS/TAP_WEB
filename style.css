@@ -1,55 +1,59 @@
 body {
-    background-image: url('src/fundo_cadastro.png');
-    /* caminho da sua imagem */
-    background-size: cover;
-    /* Ajusta o tamanho da imagem para cobrir todo o elemento */
-    background-position: center;
-    /* Centraliza a imagem no elemento */
-    background-repeat: no-repeat;
-    /* Evita a repetição da imagem */
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  /* aqui é o container do bloco cadastro */
-  #container {
-    color: #FED402;
-    background-color: #0D3068;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgb(0, 64, 255, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  /* aqui o container do cadastro finaliza */
-  input[type="text"],
-  input[type="password"],
-  input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  button {
-    width: 50%; /* Define a largura do botão */
-    padding: 10px 20px;
-    margin-top: 20px; /* Adiciona um espaço acima do botão */
-    background-color: #FED402;
-    color: #0D3068;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+  background-image: url('src/fundo_cadastro.png');
+  /* caminho da sua imagem */
+  background-size: cover;
+  /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+  background-position: center;
+  /* Centraliza a imagem no elemento */
+  background-repeat: no-repeat;
+  /* Evita a repetição da imagem */
+  font-family: Arial, sans-serif;
+  background-color: rgba(244, 244, 244);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* aqui é o container do bloco cadastro */
+#container {
+  color: #FED402;
+  background-color: #0D3068;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0, 64, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* aqui o container do cadastro finaliza */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
 
-  #irLogin {
-    cursor: pointer;
-  }
+button {
+  width: 50%; /* Define a largura do botão */
+  padding: 10px 20px;
+  margin-top: 20px; /* Adiciona um espaço acima do botão */
+  background-color: #FED402;
+  color: #0D3068;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#irLogin {
+  cursor: pointer;
+}
+
+#irindex {
+  color: red;
+}
