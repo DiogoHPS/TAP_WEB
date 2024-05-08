@@ -8,6 +8,20 @@
     <title>TAP - Professor</title>
 </head>
     <body>
-        
+        <div class="user-input-section">
+            <section class="heading">
+                <div class="title">QRcodes</div>
+                <div class="sub-title">Gere QRCode para qualquer coisa!</div>
+            </section>
+            <section class="user-input">
+                <input type="text" placeholder="Coloque o seu link aqui" name="input_text" id="input_text" autocomplete="off">
+                <button class="button" type="submit">Gerar</button>
+            </section>
+        </div>
+        <div class="qr-code-container">
+            <div class="qr-code"></div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     </body>
 </html>
