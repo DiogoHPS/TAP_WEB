@@ -8,8 +8,14 @@ body {
   align-items: center;
   height: 100vh;
 }
-/* aqui é o container do bloco cadastro */
-#container {
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
   color: #FED402;
   background-color: #0D3068;
   padding: 20px;
@@ -19,10 +25,8 @@ body {
   flex-direction: column;
   align-items: center;
 }
-/* aqui o container do cadastro finaliza */
-input[type="text"],
-input[type="password"],
-input[type="email"] {
+
+.input-container input {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -48,4 +52,21 @@ button {
 
 #irindex {
   color: red;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0D3068;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0, 64, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
 }
