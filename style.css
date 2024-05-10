@@ -1,12 +1,4 @@
 body {
-  background-image: url('src/fundo_cadastro.png');
-  /* caminho da sua imagem */
-  background-size: cover;
-  /* Ajusta o tamanho da imagem para cobrir todo o elemento */
-  background-position: center;
-  /* Centraliza a imagem no elemento */
-  background-repeat: no-repeat;
-  /* Evita a repetição da imagem */
   font-family: Arial, sans-serif;
   background-color: rgba(244, 244, 244);
   margin: 0;
