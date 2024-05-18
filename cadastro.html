@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html lang="PT-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="src/tigrinho.png" type="image/x-icon">
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
     <title>Cadastro TAP - Professor</title>
 </head>
 <body>
     <div class="container">
+        <div class="image-container">
+            <img src="src/tigrinho.png" alt="Imagem do lado esquerdo">
+        </div>
         <div class="form-container">
             <h2>Cadastro TAP - Professor</h2>
             <input type="text" id="username" placeholder="Nome Completo"><br>
             <input type="email" id="email" placeholder="E-mail"><br>
-            <input type="text" id="matricula" placeholder="Matricula"><br>
-            <input type="password" id="password" placeholder="Senha "><br>
+            <input type="text" id="matricula" placeholder="Matrícula"><br>
+            <input type="password" id="password" placeholder="Senha"><br>
             <input type="password" id="rpassword" placeholder="Repita a senha"><br>
-            
             <button onclick="register()">Cadastre-se</button>
             <p id="irLogin" onclick="irParaLogin()">Já tem login?</p>
-            <p id="irindex" onclick="irParaindex()">ir para index(a retirar)</p>
-            <div class="image-container">
-                <img src="src/tigrinho.png" alt="Imagem ao lado do cadastro">
-            </div>
+            <p id="irindex" onclick="irParaindex()">Ir para index (a retirar)</p>
         </div>
-
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
