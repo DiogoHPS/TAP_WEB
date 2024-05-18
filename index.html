@@ -9,7 +9,6 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <!-- <a href="#">Gerador QR-Code</a> -->
             <h1>Gerador QR-Code</h1>
         </div>
         <div class="icons">
@@ -19,24 +18,41 @@
     </nav>
 
 <!-- gerador de qrcode -->
-<div id="gerador">
-    <div class="user-input-section">
-        <section class="heading">
-            <div class="title">QRcodes</div>
-            <div class="sub-title">Gere QRCode para qualquer coisa!</div>
-        </section>
-        <section class="user-input">
+
+    <div class="container">
+            <div class="instructions">
+                <div class="instruction-left">
+                    <p>"Para usar o QR code do Google Forms:</p>
+                    <ol>
+                        <li>Abra o leitor de QR code no celular.</li>
+                        <li>Aponte para o QR code e clique no link.</li>
+                        <li>Preencha o formulário e envie.</li>
+                    </ol>
+                </div>
+                <div class="instruction-right">
+                    <p>Para gerar o link no Google Forms:</p>
+                    <ol>
+                        <li>Crie o formulário.</li>
+                        <li>Clique em "Enviar" e copie o link.</li>
+                        <li>Converta o link em QR code.</li>
+                        <li>Compartilhe o QR code.</li>
+                    </ol>
+                    
+                </div>
+
+            </div>
             <input type="text" placeholder="Coloque o seu link aqui" name="input_text" id="input_text" autocomplete="off">
             <button class="button" type="submit">Gerar</button>
-        </section>
-    </div>
-    <div class="qr-code-container">
-        <div class="qr-code"></div>
     </div>
 
-    <script src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <div class="box-qrcode">
+        <div class="qr-code-container">
+            <div class="qr-code"></div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
-</div>
+
 </body>
 </html>
